@@ -1,0 +1,25 @@
+@import 'breakpoints.scss';
+@import 'variables.scss';
+@import 'colors.scss';
+@import 'fonts.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.text-montserrat {
+  font-family: 'Montserrat';
+}
+
+.text-montserrat_bold {
+  font-family: 'MontserratBold';
+}
+
+.text-birdy_game {
+  font-family: 'BirdyGame';
+}
+
+.text-pokemon_solid {
+  font-family: 'PokemonSolid';
+}

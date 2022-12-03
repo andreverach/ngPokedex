@@ -1,0 +1,60 @@
+/*** Breakpoints Redesign Class ***/
+.only-movil {
+  @media (min-width: 0px) and (max-width: 767.9px) {
+      display: block;
+  }
+  @media (min-width: 768px) and (max-width: 1023.9px) {
+      display: none;
+  }
+  @media (min-width: 1024px) {
+      display: none;
+  }
+}
+
+.movil-tablet {
+  @media (min-width: 0px) and (max-width: 767.9px) {
+      display: block;
+  }
+  @media (min-width: 768px) and (max-width: 1023.9px) {
+      display: block;
+  }
+  @media (min-width: 1024px) {
+      display: none;
+  }
+}
+
+.only-tablet {
+  @media (min-width: 0px) and (max-width: 767.9px) {
+      display: none;
+  }
+  @media (min-width: 768px) and (max-width: 1023.9px) {
+      display: block;
+  }
+  @media (min-width: 1024px) {
+      display: none;
+  }
+}
+
+.tablet-web {
+  @media (min-width: 0px) and (max-width: 767.9px) {
+      display: none;
+  }
+  @media (min-width: 768px) and (max-width: 1023.9px) {
+      display: block;
+  }
+  @media (min-width: 1024px) {
+      display: block;
+  }
+}
+
+.only-web {
+  @media (min-width: 0px) and (max-width: 767.9px) {
+      display: none;
+  }
+  @media (min-width: 768px) and (max-width: 1023.9px) {
+      display: none;
+  }
+  @media (min-width: 1024px) {
+      display: block;
+  }
+}
