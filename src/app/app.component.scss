@@ -7,13 +7,34 @@ nav {
 
   background: url('./../assets/images/png/pokemon-back.png');
   background-repeat: no-repeat;
-  background-size: 100% 300px;
-  background-position: bottom;
+  background-size: contain;
+  
+  @media (min-width: 0px) and (max-width: 359.9px) {
+    background-size: 100% 150px;
+    background-position: bottom;
+  }
+  @media (min-width: 360px) and (max-width: 767.9px) {
+    background-size: 100% 150px;
+    background-position: bottom;
+  }
 
   span {
     text-align: center;
     font-size: 90px;
-    letter-spacing: 10px;    
+    letter-spacing: 10px;
+      
+    @media (min-width: 0px) and (max-width: 359.9px) {
+      font-size: 50px;
+    } 
+    @media (min-width: 360px) and (max-width: 767.9px) {
+      font-size: 50px;
+    } 
+    @media (min-width: 768px) and (max-width: 1023.9px) {
+      font-size: 50px;
+    }
+    @media (min-width: 1024px) and (max-width: 1439.9px) {
+      font-size: 70px;
+    }
   }
   
   ul {
@@ -24,6 +45,15 @@ nav {
     justify-content: center;
     align-items: center;
     gap: 20px;
+
+    @media (min-width: 0px) and (max-width: 359.9px) {
+      flex-direction: column;            
+      margin-top: 30px;
+    } 
+    @media (min-width: 360px) and (max-width: 767.9px) {
+      flex-direction: column;            
+      margin-top: 30px;
+    }    
   
     li {
       width: 300px;
@@ -35,6 +65,29 @@ nav {
       display: flex;
       justify-content: center;
       align-items: center;
+      
+      @media (min-width: 0px) and (max-width: 359.9px) {
+        width: 150px;
+        height: 65px;
+        font-size: 25px;
+        border-radius: 20px;
+      }
+      @media (min-width: 360px) and (max-width: 767.9px) {
+        width: 150px;
+        height: 65px;
+        font-size: 25px;
+        border-radius: 20px;
+      }
+      @media (min-width: 768px) and (max-width: 1023.9px) {
+        width: 200px;
+        height: 90px;
+        font-size: 30px;
+      }
+      @media (min-width: 1024px) and (max-width: 1439.9px) {
+        width: 250px;
+        height: 130px;
+        font-size: 40px;
+      }
     }
   }
 }
